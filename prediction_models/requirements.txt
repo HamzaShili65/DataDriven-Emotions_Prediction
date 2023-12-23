@@ -1,0 +1,45 @@
+#dependencies to import and instanll:
+
+# Standard Libraries and File Operations
+import os
+import csv
+
+# Data Processing and Array Manipulations
+import numpy as np
+import pandas as pd
+
+# Audio Processing
+import librosa
+import librosa.display
+import IPython.display as ipd
+
+# Machine Learning: Preprocessing, Models, Metrics
+from sklearn.model_selection import train_test_split, GridSearchCV, KFold
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.svm import SVC
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn.mixture import GaussianMixture
+
+# Bayesian Optimization
+from skopt import BayesSearchCV
+from skopt.space import Real, Categorical, Integer
+
+# TensorFlow and Keras for Deep Learning
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
+
+# Cloud Integration (specific to Google Colab)
+from google.colab import drive
+
+# Required Installations (add these at the beginning of your notebook or script)
+# pip install tensorflow
+# pip install librosa
+# pip install scikit-learn
+# pip install scikit-optimize
+# pip install pandas  # if you plan to use pandas
+
+# Note: For installations, use '!' before pip if you are running this in a Jupyter notebook or Google Colab.
+
